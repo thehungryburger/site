@@ -436,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const feeData = deliveryFees.find(f => f.bairro === userInfo.bairro);
         const taxaEntrega = deliveryType === 'delivery' ? (feeData ? feeData.taxa : 0) : 0;
         const paymentMethod = paymentMethodSelect.value;
-        const couponCode = couponInput.value.trim(); // Pega o código do cupom
+        const couponCode = couponInput.value.trim();
 
         const subtotal = cart.reduce((acc, item) => {
             const itemPrice = item.product.preco + item.extras.reduce((extraAcc, extra) => extraAcc + extra.preco, 0);
