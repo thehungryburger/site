@@ -5,7 +5,7 @@
     "descricao": "",
     "preco": 21.99,
     "categoria": "Combos",
-    "imageUrl": "/images/The One.webp"
+    "imageUrl": "images/The One.webp"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "descricao": "asd",
     "preco": 12.49,
     "categoria": "The Hamburgers",
-    "imageUrl": "/images/The Hamburger.webp"
+    "imageUrl": "images/The Hamburger.webp"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "descricao": "asd",
     "preco": 13.99,
     "categoria": "The Hamburgers",
-    "imageUrl": "/images/The Salada.webp"
+    "imageUrl": "images/The Salada.webp"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "descricao": "asd",
     "preco": 15.99,
     "categoria": "The Hamburgers",
-    "imageUrl": "/images/The Cheddar.webp"
+    "imageUrl": "images/The Cheddar.webp"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "descricao": "asd",
     "preco": 15.99,
     "categoria": "The Hamburgers",
-    "imageUrl": "/images/The Egg.webp"
+    "imageUrl": "images/The Egg.webp"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "descricao": "asd",
     "preco": 15.99,
     "categoria": "The Hamburgers",
-    "imageUrl": "/images/The Bacon.webp"
+    "imageUrl": "images/The Bacon.webp"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "descricao": "200 gramas de batata crocante",
     "preco": 7.5,
     "categoria": "Acompanhamentos",
-    "imageUrl": "/images/The Batata.webp"
+    "imageUrl": "images/The Batata.webp"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "descricao": "asd",
     "preco": 19.99,
     "categoria": "Acompanhamentos",
-    "imageUrl": "/images/The Big Box of Batata.webp"
+    "imageUrl": "images/The Big Box of Batata.webp"
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "descricao": "Salgadinhos sortidos crocantes e deliciosos",
     "preco": 12.0,
     "categoria": "Acompanhamentos",
-    "imageUrl": "/images/The Salgadinho.webp"
+    "imageUrl": "images/The Salgadinho.webp"
   },
   {
     "id": 10,
@@ -77,7 +77,7 @@
     "descricao": "",
     "preco": 3.49,
     "categoria": "Bebidas",
-    "imageUrl": "/images/Coca-Cola 250ml.webp"
+    "imageUrl": "images/Coca-Cola 250ml.webp"
   },
   {
     "id": 11,
@@ -85,7 +85,7 @@
     "descricao": "",
     "preco": 3.49,
     "categoria": "Bebidas",
-    "imageUrl": "/images/Coca-Zero 250ml.webp"
+    "imageUrl": "images/Coca-Zero 250ml.webp"
   },
   {
     "id": 12,
@@ -93,7 +93,7 @@
     "descricao": "",
     "preco": 2.99,
     "categoria": "Bebidas",
-    "imageUrl": "/images/Pepsi 200ml.webp"
+    "imageUrl": "images/Pepsi 200ml.webp"
   },
   {
     "id": 13,
@@ -101,7 +101,7 @@
     "descricao": "",
     "preco": 4.99,
     "categoria": "Bebidas",
-    "imageUrl": "/images/Coca-Cola Lata.webp"
+    "imageUrl": "images/Coca-Cola Lata.webp"
   },
   {
     "id": 14,
@@ -109,7 +109,7 @@
     "descricao": "",
     "preco": 4.99,
     "categoria": "Bebidas",
-    "imageUrl": "/images/São Gerardo Caju Lata.webp"
+    "imageUrl": "images/São Gerardo Caju Lata.webp"
   },
   {
     "id": 15,
@@ -117,7 +117,7 @@
     "descricao": "",
     "preco": 9.99,
     "categoria": "Bebidas",
-    "imageUrl": "/images/Heineken Long Neck 330ml.webp"
+    "imageUrl": "images/Heineken Long Neck 330ml.webp"
   },
   {
     "id": 16,
@@ -125,7 +125,7 @@
     "descricao": "",
     "preco": 4.99,
     "categoria": "Sobremesas",
-    "imageUrl": "/images/The Brownie.webp"
+    "imageUrl": "images/The Brownie.webp"
   },
   {
     "id": 17,
@@ -133,7 +133,7 @@
     "descricao": "",
     "preco": 5.99,
     "categoria": "Sobremesas",
-    "imageUrl": "/images/The Brownie of Chocolate.webp"
+    "imageUrl": "images/The Brownie of Chocolate.webp"
   },
   {
     "id": 18,
@@ -141,7 +141,7 @@
     "descricao": "",
     "preco": 5.99,
     "categoria": "Sobremesas",
-    "imageUrl": "/images/The Brownie of Ninho.webp"
+    "imageUrl": "images/The Brownie of Ninho.webp"
   },
   {
     "id": 19,
@@ -149,7 +149,7 @@
     "descricao": "",
     "preco": 1.9,
     "categoria": "Molhos",
-    "imageUrl": "/images/The Maionese da Casa.webp"
+    "imageUrl": "images/The Maionese da Casa.webp"
   },
   {
     "id": 20,
@@ -157,6 +157,6 @@
     "descricao": "",
     "preco": 2.0,
     "categoria": "Adicionais",
-    "imageUrl": "/images/Bacon.webp"
+    "imageUrl": "images/Bacon.webp"
   }
 ]
