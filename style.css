@@ -691,6 +691,7 @@ header {
         padding: 0.5rem 0;
         flex-grow: 1; 
         min-width: 0;
+        justify-content: flex-start; /* CORREÇÃO: Alinha o texto ao topo */
     }
     .item-details h3, .item-details .description {
         word-break: break-word;
