@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#ffc107">
+    <meta name="description" content="Peça os melhores hambúrgueres da cidade! É Fácil e Rápido.">
+    <meta property="og:title" content="The Hungry Burger">
+    <meta property="og:description" content="Peça agora. É rápido e fácil!">
+    <meta property="og:image" content="/images/logo.png">
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <title>The Hungry Burger - Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <div class="header-top">
+                <div class="contact-info">
+                    <span>Contato:</span>
+                    <a href="https://wa.me/5585999999999" target="_blank">
+                        <svg viewBox="0 0 32 32" class="whatsapp-icon">
+                            <path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.044-.53-.044-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.38.23-.59.325-1.17.28-1.76-.076-.974-1.187-1.475-1.518-1.475zm-2.32-.445c.122.122.232.232.353.325.302.232 1.14.79 1.14.79l.172.086c.402.215.77.43.958.688.27.372.372.888.143 1.46-.232.572-1.14 1.17-1.626 1.17-.215 0-.572-.115-.888-.258-1.017-.417-2.106-1.03-3.214-2.146-.828-.842-1.38-1.917-1.447-2.163-.044-.122-.073-.244-.073-.36-.015-.143.044-.287.115-.402.086-.122.172-.215.258-.287.115-.073.232-.115.353-.115.143 0 .287.044.388.115l.115.073c.232.172.43.417.6.688.158.27.287.6.353.958.015.122.015.232.015.353zm-.015-17.73c-8.418 0-15.232 6.814-15.232 15.232 0 8.418 6.814 15.232 15.232 15.232 8.418 0 15.232-6.814 15.232-15.232 0-8.418-6.814-15.232-15.232-15.232zm0 27.86c-6.98 0-12.628-5.648-12.628-12.628s5.648-12.628 12.628-12.628c6.98 0 12.628 5.648 12.628 12.628s-5.648 12.628-12.628 12.628z" fill-rule="evenodd"></path>
+                        </svg>
+                        85 99999-9999
+                    </a>
+                </div>
+                <img src="/images/logo.png" alt="Logo da The Hungry Burger" class="logo">
+            </div>
+            <nav id="category-tabs-container"></nav>
+        </header>
+
+        <main class="main-container">
+            <section id="menu-container">
+                <div class="loading-container">
+                    <p class="loading">A carregar o cardápio...</p>
+                </div>
+            </section>
+
+            <aside id="cart-container">
+                <div class="cart-header">
+                    <h2>🛒 The Carrinho</h2>
+                    <button id="close-cart-btn" class="close-btn">&times;</button>
+                </div>
+                <div id="cart-items">
+                    <p class="empty-cart-message">O seu carrinho está vazio.</p>
+                </div>
+                <div id="cart-summary">
+                    <div class="summary-row">
+                        <span>Subtotal:</span>
+                        <span id="subtotal">R$ 0,00</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Taxa de Entrega:</span>
+                        <span id="delivery-fee">R$ 0,00</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Total:</span>
+                        <span id="total">R$ 0,00</span>
+                    </div>
+                </div>
+                <button id="checkout-button" disabled>Finalizar Pedido</button>
+            </aside>
+        </main>
+        
+        <button id="mobile-cart-button" class="mobile-cart-btn">
+            🛒 Ver Pedido (<span id="mobile-cart-count">0</span>)
+        </button>
+    </div>
+    
+    <div id="modal-backdrop"></div>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-product-name">Nome do Produto</h2>
+                <button id="modal-close-btn" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="modal-product-description">Descrição do produto aqui.</p>
+                <div id="modal-options-section">
+                    <h3>Incremente o seu pedido</h3>
+                    <div id="modal-options-container"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="quantity-control">
+                    <button class="quantity-btn" data-action="decrease">-</button>
+                    <span id="modal-quantity">1</span>
+                    <button class="quantity-btn" data-action="increase">+</button>
+                </div>
+                <button id="modal-add-to-cart-btn">
+                    Adicionar ao pedido <span id="modal-total-price">R$ 0,00</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="checkout-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Finalizar Pedido</h2>
+                <button id="checkout-close-btn" class="close-btn">&times;</button>
+            </div>
+            <form id="checkout-form" class="modal-body">
+                <h3>Informações Pessoais</h3>
+                <div class="form-group"><label for="nome">Nome e Sobrenome</label><input type="text" id="nome" name="nome" required></div>
+                <div class="form-group"><label for="telefone">Telefone (WhatsApp)</label><input type="tel" id="telefone" name="telefone" required placeholder="(99) 99999-9999"></div>
+                
+                <h3>Tipo de Entrega</h3>
+                <div class="form-group delivery-type-group">
+                    <label><input type="radio" name="delivery-type" value="delivery" checked> Delivery</label>
+                    <label><input type="radio" name="delivery-type" value="pickup"> Retirar no balcão</label>
+                </div>
+
+                <div id="address-fields">
+                    <h3>Endereço para Entrega</h3>
+                    <div class="form-group"><label for="bairro">Bairro</label><select id="bairro" name="bairro" required><option value="">Selecione o seu bairro...</option></select></div>
+                    <div class="form-group"><label for="rua">Endereço Completo</label><input type="text" id="rua" name="rua" required></div>
+                    <div class="form-group"><label for="complemento">Apartamento/Bloco (Opcional)</label><input type="text" id="complemento" name="complemento"></div>
+                </div>
+
+                <div id="pickup-time-group" style="display: none;">
+                     <div class="form-group">
+                        <label for="pickup-time">Hora aproximada de retirada</label>
+                        <input type="time" id="pickup-time" name="pickup-time">
+                    </div>
+                </div>
+
+                <h3>Pagamento</h3>
+                <div class="form-group">
+                    <label for="payment-method">Forma de Pagamento</label>
+                    <select id="payment-method" name="payment-method" required>
+                        <option value="Pix (Pagamento Online)">Pix (Pagamento Online)</option>
+                        <option value="Dinheiro">Dinheiro</option>
+                        <option value="Cartão (Pagamento Online)">Cartão (Pagamento Online)</option>
+                        <option value="Cartão (Pagamento Presencial)">Cartão (Pagamento Presencial)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group" id="troco-group">
+                    <label for="troco">Troco para:</label>
+                    <input type="text" id="troco" name="troco" placeholder="Ex: 50,00">
+                </div>
+
+                <div class="form-group">
+                    <label for="coupon-code">Cupom de Desconto (Opcional)</label>
+                    <input type="text" id="coupon-code" name="coupon-code" placeholder="Ex: 10OFF">
+                </div>
+
+            </form>
+            <div class="modal-footer">
+                <button id="confirm-order-btn" class="confirm-btn">Confirmar Pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
