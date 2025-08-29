@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "nome": "The One",
+    "descricao": "",
+    "preco": 21.99,
+    "categoria": "Combos",
+    "imageUrl": "images/The One.webp"
+  },
+  {
+    "id": 2,
+    "nome": "The Hamburger",
+    "descricao": "asd",
+    "preco": 12.49,
+    "categoria": "The Hamburgers",
+    "imageUrl": "images/The Hamburger.webp"
+  },
+  {
+    "id": 3,
+    "nome": "The Salada",
+    "descricao": "asd",
+    "preco": 13.99,
+    "categoria": "The Hamburgers",
+    "imageUrl": "images/The Salada.webp"
+  },
+  {
+    "id": 4,
+    "nome": "The Cheddar",
+    "descricao": "asd",
+    "preco": 15.9,
+    "categoria": "The Hamburgers",
+    "imageUrl": "images/The Cheddar.webp"
+  },
+  {
+    "id": 5,
+    "nome": "The Egg",
+    "descricao": "asd",
+    "preco": 15.9,
+    "categoria": "The Hamburgers",
+    "imageUrl": "images/The Egg.webp"
+  },
+  {
+    "id": 6,
+    "nome": "The Bacon",
+    "descricao": "asd",
+    "preco": 15.9,
+    "categoria": "The Hamburgers",
+    "imageUrl": "images/The Bacon.webp"
+  },
+  {
+    "id": 7,
+    "nome": "The Batata",
+    "descricao": "200 gramas de batata crocante",
+    "preco": 7.5,
+    "categoria": "Acompanhamentos",
+    "imageUrl": "images/The Batata.webp"
+  },
+  {
+    "id": 8,
+    "nome": "The Big Box of Batata",
+    "descricao": "asd",
+    "preco": 19.99,
+    "categoria": "Acompanhamentos",
+    "imageUrl": "images/The Big Box of Batata.webp"
+  },
+  {
+    "id": 9,
+    "nome": "The Salgadinho",
+    "descricao": "Salgadinhos sortidos crocantes e deliciosos",
+    "preco": 12.0,
+    "categoria": "Acompanhamentos",
+    "imageUrl": "images/The Salgadinho.webp"
+  },
+  {
+    "id": 10,
+    "nome": "Coca-Cola 250ml",
+    "descricao": "",
+    "preco": 3.49,
+    "categoria": "Bebidas",
+    "imageUrl": "images/Coca-Cola 250ml.webp"
+  },
+  {
+    "id": 11,
+    "nome": "Coca-Zero 250ml",
+    "descricao": "",
+    "preco": 3.49,
+    "categoria": "Bebidas",
+    "imageUrl": "images/Coca-Zero 250ml.webp"
+  },
+  {
+    "id": 12,
+    "nome": "Pepsi 200ml",
+    "descricao": "",
+    "preco": 2.99,
+    "categoria": "Bebidas",
+    "imageUrl": "images/Pepsi 200ml.webp"
+  },
+  {
+    "id": 13,
+    "nome": "Coca-Cola Lata",
+    "descricao": "",
+    "preco": 4.99,
+    "categoria": "Bebidas",
+    "imageUrl": "images/Coca-Cola Lata.webp"
+  },
+  {
+    "id": 14,
+    "nome": "São Gerardo Caju Lata",
+    "descricao": "",
+    "preco": 4.99,
+    "categoria": "Bebidas",
+    "imageUrl": "images/São Gerardo Caju Lata.webp"
+  },
+  {
+    "id": 15,
+    "nome": "Heineken Long Neck 330ml",
+    "descricao": "",
+    "preco": 9.99,
+    "categoria": "Bebidas",
+    "imageUrl": "images/Heineken Long Neck 330ml.webp"
+  },
+  {
+    "id": 16,
+    "nome": "The Brownie",
+    "descricao": "",
+    "preco": 4.99,
+    "categoria": "Sobremesas",
+    "imageUrl": "images/The Brownie.webp"
+  },
+  {
+    "id": 17,
+    "nome": "The Brownie of Chocolate",
+    "descricao": "",
+    "preco": 5.99,
+    "categoria": "Sobremesas",
+    "imageUrl": "images/The Brownie of Chocolate.webp"
+  },
+  {
+    "id": 18,
+    "nome": "The Brownie of Ninho",
+    "descricao": "",
+    "preco": 5.99,
+    "categoria": "Sobremesas",
+    "imageUrl": "images/The Brownie of Ninho.webp"
+  },
+  {
+    "id": 19,
+    "nome": "The Maionese da Casa",
+    "descricao": "",
+    "preco": 1.9,
+    "categoria": "Molhos",
+    "imageUrl": "images/The Maionese da Casa.webp"
+  },
+  {
+    "id": 20,
+    "nome": "Bacon",
+    "descricao": "",
+    "preco": 2.0,
+    "categoria": "Adicionais",
+    "imageUrl": "images/Bacon.webp"
+  },
+  {
+    "id": 21,
+    "nome": "Ovo",
+    "descricao": "",
+    "preco": 1.5,
+    "categoria": "Adicionais",
+    "imageUrl": "images/Ovo.webp"
+  }
+]
