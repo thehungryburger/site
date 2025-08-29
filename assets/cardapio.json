@@ -27,7 +27,7 @@
     "id": 4,
     "nome": "The Cheddar",
     "descricao": "asd",
-    "preco": 15.99,
+    "preco": 15.9,
     "categoria": "The Hamburgers",
     "imageUrl": "images/The Cheddar.webp"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "nome": "The Egg",
     "descricao": "asd",
-    "preco": 15.99,
+    "preco": 15.9,
     "categoria": "The Hamburgers",
     "imageUrl": "images/The Egg.webp"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "nome": "The Bacon",
     "descricao": "asd",
-    "preco": 15.99,
+    "preco": 15.9,
     "categoria": "The Hamburgers",
     "imageUrl": "images/The Bacon.webp"
   },
@@ -158,5 +158,13 @@
     "preco": 2.0,
     "categoria": "Adicionais",
     "imageUrl": "images/Bacon.webp"
+  },
+  {
+    "id": 21,
+    "nome": "Ovo",
+    "descricao": "",
+    "preco": 1.5,
+    "categoria": "Adicionais",
+    "imageUrl": "images/Ovo.webp"
   }
 ]
