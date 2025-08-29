@@ -155,7 +155,7 @@
     "id": 20,
     "nome": "Bacon",
     "descricao": "",
-    "preco": 2.0,
+    "preco": 4.0,
     "categoria": "Adicionais",
     "imageUrl": "images/Bacon.webp"
   },
@@ -163,8 +163,24 @@
     "id": 21,
     "nome": "Ovo",
     "descricao": "",
-    "preco": 1.5,
+    "preco": 2.0,
     "categoria": "Adicionais",
     "imageUrl": "images/Ovo.webp"
+  },
+  {
+    "id": 22,
+    "nome": "Carne",
+    "descricao": "",
+    "preco": 5.0,
+    "categoria": "Adicionais",
+    "imageUrl": "images/Carne.webp"
+  },
+  {
+    "id": 23,
+    "nome": "Queijo",
+    "descricao": "",
+    "preco": 3.0,
+    "categoria": "Adicionais",
+    "imageUrl": "images/Queijo.webp"
   }
 ]
