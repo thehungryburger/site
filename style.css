@@ -683,7 +683,7 @@ header {
     }
     .menu-item img {
         width: 90px;
-        height: 90px;
+        height: 51px; /* Proporção 16:9 (90px / 16 * 9) */
         object-fit: cover;
         flex-shrink: 0;
         margin-right: 1rem;
