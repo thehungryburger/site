@@ -675,27 +675,26 @@ header {
         gap: 1rem;
     }
     .menu-item {
-        flex-direction: column; /* Alterado para coluna para o layout de card */
-        align-items: stretch; /* Estica os itens filhos */
-        padding: 0; /* Removido o padding para a imagem ocupar todo o espaço */
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5rem;
     }
     .menu-item img {
-        width: 100%; /* Imagem ocupa 100% da largura do card */
+        width: 100px;
         height: auto;
         aspect-ratio: 16 / 9;
         flex-shrink: 0;
-        margin-right: 0; /* Removida margem desnecessária */
-        border-radius: 0; /* O contêiner pai já tem bordas arredondadas */
+        margin-right: 1rem;
+        border-radius: 8px;
     }
     .item-details {
-        padding: 1rem; /* Adicionado padding interno para o texto */
+        padding: 0.5rem 0;
         flex-grow: 1;
         min-width: 0;
-        justify-content: space-between;
-        display: flex;
-        flex-direction: column;
+        justify-content: flex-start;
     }
     .item-details h3, .item-details .description {
         word-break: break-word;
     }
 }
+
