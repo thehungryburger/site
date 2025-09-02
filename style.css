@@ -676,9 +676,9 @@ header {
     }
     .menu-item {
         flex-direction: row;
-        align-items: flex-start; /* Alinha no topo para dar espaço ao texto */
+        align-items: center; /* Centraliza a imagem e o texto verticalmente */
         padding: 0.8rem;
-        min-height: 120px; /* Usa altura mínima para permitir expansão */
+        min-height: 120px;
         box-sizing: border-box;
     }
     .menu-item img {
@@ -708,11 +708,11 @@ header {
         font-size: 0.9rem;
         color: #666;
         margin-bottom: 0.5rem;
-        white-space: normal; /* Permite a quebra de linha */
-        overflow: hidden; /* Esconde o texto que transborda */
-        text-overflow: ellipsis; /* Adiciona "..." no final */
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 2; /* Limita o texto a 2 linhas */
+        -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
     }
     .item-details .price {
