@@ -676,9 +676,9 @@ header {
     }
     .menu-item {
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start; /* Alinha no topo para dar espaço ao texto */
         padding: 0.8rem;
-        height: 120px;
+        min-height: 120px; /* Usa altura mínima para permitir expansão */
         box-sizing: border-box;
     }
     .menu-item img {
@@ -693,7 +693,6 @@ header {
         padding: 0;
         flex-grow: 1;
         min-width: 0;
-        height: 100%;
         display: flex;
         flex-direction: column;
     }
