@@ -709,9 +709,12 @@ header {
         font-size: 0.9rem;
         color: #666;
         margin-bottom: 0.5rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        white-space: normal; /* Permite a quebra de linha */
+        overflow: hidden; /* Esconde o texto que transborda */
+        text-overflow: ellipsis; /* Adiciona "..." no final */
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* Limita o texto a 2 linhas */
+        -webkit-box-orient: vertical;
     }
     .item-details .price {
         margin-top: auto;
