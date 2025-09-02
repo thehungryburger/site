@@ -683,6 +683,7 @@ header {
         width: 100px;
         height: auto;
         aspect-ratio: 16 / 9;
+        object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
         flex-shrink: 0;
         margin-right: 1rem;
         border-radius: 8px;
